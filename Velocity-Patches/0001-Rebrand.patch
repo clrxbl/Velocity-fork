@@ -1,0 +1,25 @@
+From c9d0b640c5f932ba4418010a256394534028f141 Mon Sep 17 00:00:00 2001
+From: Michael <michael@iptables.sh>
+Date: Wed, 7 Dec 2022 17:01:34 +0100
+Subject: [PATCH] Rebrand
+
+
+diff --git a/proxy/build.gradle b/proxy/build.gradle
+index 24e4db58..5ec1a911 100644
+--- a/proxy/build.gradle
++++ b/proxy/build.gradle
+@@ -24,9 +24,9 @@ jar {
+         }
+ 
+         attributes 'Main-Class': 'com.velocitypowered.proxy.Velocity'
+-        attributes 'Implementation-Title': "Velocity"
++        attributes 'Implementation-Title': "Forkname"
+         attributes 'Implementation-Version': version
+-        attributes 'Implementation-Vendor': "Velocity Contributors"
++        attributes 'Implementation-Vendor': "Velocity & Forkname Contributors"
+         attributes 'Multi-Release': 'true'
+     }
+ }
+-- 
+2.38.1
+
